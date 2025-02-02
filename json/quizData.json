@@ -1,0 +1,26 @@
+[
+    {
+        "type": "onePiece",
+        "question": "What motivates you the most?",
+        "options": ["Adventure!", "Strength!", "Helping others!", "Money!"],
+        "values": ["Luffy", "Zoro", "Sanji", "Nami"]
+    },
+    {
+        "type": "onePiece",
+        "question": "What's your fighting style?",
+        "options": ["Punches and kicks", "Swords!", "Martial arts", "Strategy"],
+        "values": ["Luffy", "Zoro", "Sanji", "Nami"]
+    },
+    {
+        "type": "animePowers",
+        "question": "What kind of battle strategy suits you best?",
+        "options": ["Overpowering my enemies with sheer strength", "Using intelligence and strategy to win", "Manipulating my surroundings to my advantage", "Staying calm and letting my energy flow naturally"],
+        "values": ["Super Strength", "Mind Control", "Elemental Powers", "Energy Manipulation"]
+    },
+    {
+        "type": "animePowers",
+        "question": "Which environment do you feel most connected to?",
+        "options": ["A battlefield where I can fight freely", "A futuristic city full of possibilities", "A place where nature and elements are alive", "A mystical temple filled with spiritual energy"],
+        "values": ["Super Strength", "Mind Control", "Elemental Powers", "Energy Manipulation"]
+    }
+]

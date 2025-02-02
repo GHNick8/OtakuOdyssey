@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" href="css/stijl.css">
+    </head>
+    <body>
+        <header>
+            <h1>Otaku Odyssey</h1>
+            <h3>Contact us</h3>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="plotholes.html">Plotholes</a></li>
+                <li><a href="quiz.html">Quiz Time</a></li>
+                <li><a href="blog.html">Anime Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <section>
+            <div class="een">
+                <h2 class="tekstkleur">Where am i ?!</h2>
+                <p class="tekstkleur animefont">Got a question, theory, or anime topic you'd love to discuss? We'd love to hear from you! 
+                    Whether it's feedback, collaboration ideas, or just sharing your favorite anime moments, 
+                    drop us a message below. Join the Otaku Odyssey and let's explore the anime universe together!</p>
+                <img src="afbeeldingen/byomerAWG.gif" alt="Anime gif" id="animeGif">
+                <img src="afbeeldingen/Tokyo_street_by_arsenixc_daj4ocm-414w-2x.jpg" alt="Tokyo_street_by_arsenixc_daj4ocm-414w-2x" id="animeImgContact">
+            </div>
+            <div class="twee">
+                <h2>Contact us</h2>
+                <h4>You can leave a message below!</h4>
+                <form id="contactForm" action="https://formspree.io/f/myzkjjee" method="post">
+                    <label for="voornaam">First name</label>
+                    <input type="text" id="voornaam" name="voornaam" placeholder="First name">
+                    <span class="error" id="voornaamError"></span>               
+                    <label for="achternaam">Last name</label>
+                    <input type="text" id="achternaam" name="achternaam" placeholder="Last name">
+                    <span class="error" id="achternaamError"></span>               
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="E-mail">
+                    <span class="error" id="emailError"></span>               
+                    <label for="land">Country</label>
+                    <select name="land" id="land">
+                        <option value="Belgium" selected>Belgium</option>
+                        <option value="Netherlands">Netherlands</option>
+                        <option value="France">France</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Great Britain">Great Britain</option>
+                        <option value="USA">USA</option>
+                        <option value="China">China</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Other">Other...</option>
+                    </select>               
+                    <label for="bericht">Message</label>
+                    <textarea name="bericht" id="bericht" maxlength="1500" placeholder="Type message..."></textarea>
+                    <span class="error" id="berichtError"></span>              
+                    <button type="submit" name="_gotcha" id="submitButton">Send</button>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <p class="tekstkleur">(Fan site under construction!)<br>&copy;2025</p>
+        </footer>
+        <script src="js/form.js"></script>
+    </body>
+</html>
